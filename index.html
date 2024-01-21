@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Agenda de Contatos</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/agenda.png" alt="agenda de telefone">
+            <h1> Agenda de Contatos</h1>
+        </header>
+
+        <form id="agenda"></form>
+        <input type="text" id="nome" placeholder="Nome do Contato" required />
+        <input type="number" id="numero" placeholder="Numero do Contato" required />
+        <input type="text" id="apelido" placeholder="Apelido do Contato" />
+        <input type="text" id="email" placeholder="Email do Contato" required />
+        <button type="submit"> Salvar Contato</button>
+
+        <table cellspacing="0" id="contatos">
+            <tbody></tbody>
+        </table>
+        <span id="armazenados">Contatos: 0</span>
+        
+        
+        <script src="./main.js"></script>
+</body>
+</div>
+
+</html>
